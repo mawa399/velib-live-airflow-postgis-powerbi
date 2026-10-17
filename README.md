@@ -113,7 +113,19 @@ SELECT etat, count(*) FROM v_stations_live GROUP BY etat;
 - Un **historique** au quart d'heure qui s'accumule dans PostgreSQL, base des futures analyses.
 - Une page **Couverture** (analyse SIG ArcGIS Pro) : population à moins de 300 m d'une station, gares non desservies, propositions d'implantation.
 
-![Infobulle station](docs/images/infobulle.jpg)
+### Captures
+
+**Page « Carte en direct »** : état des 1 500 stations, indicateurs clés et filtres, rafraîchis toutes les 2 minutes.
+
+![Page Carte en direct](docs/images/capture_carte_en_direct.png)
+
+**Page « Couverture du réseau »** : part des habitants à moins de 300 m d'une station, zones blanches, gares sans Vélib' et classement des communes.
+
+![Page Couverture du réseau](docs/images/capture_couverture_reseau.png)
+
+**Analyse SIG (ArcGIS Pro)** : couverture à 300 m de marche sur le réseau piéton OSM, zones blanches (carroyage INSEE) et 20 emplacements de stations proposés.
+
+![Carte de couverture ArcGIS Pro](docs/images/carte_couverture_arcgis.jpg)
 
 ---
 
