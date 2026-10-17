@@ -8,7 +8,7 @@ calcule l'état de chaque station et l'écrit dans **PostgreSQL + PostGIS**. **P
 Projet personnel de **géomaticien / data engineer** : orchestration, ETL Python, base spatiale et
 restitution décisionnelle, avec une analyse SIG (ArcGIS Pro) de la couverture du réseau.
 
-![Page « Carte en direct » du rapport Power BI](docs/images/apercu_tableau_de_bord.png)
+![Aperçu animé du rapport Power BI : carte en direct et couverture du réseau](docs/images/apercu_velib_live.gif)
 
 ---
 
