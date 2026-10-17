@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Velib_Live"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7585efe9-aea1-4531-be6b-97ecc7f04c77"
+  }
+}

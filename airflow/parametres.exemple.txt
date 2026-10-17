@@ -1,0 +1,18 @@
+# ------------------------------------------------------------------
+# Copier ce fichier en "parametres.txt" puis remplir les valeurs.
+# parametres.txt est ignoré par git : il ne doit JAMAIS être publié.
+# ------------------------------------------------------------------
+
+# PostgreSQL local (avec PostGIS) qui reçoit les données Vélib'
+# host.docker.internal = "le PC hôte" vu depuis les conteneurs Docker
+PG_HOST=host.docker.internal
+PG_PORT=5432
+PG_USER=postgres
+PG_PASSWORD=change_moi
+# Base créée automatiquement par le DAG si elle n'existe pas
+PG_DB=velib
+
+# Interface Airflow : http://localhost:8085  (utilisateur : admin)
+AIRFLOW_ADMIN_PASSWORD=change_moi
+# Chaîne aléatoire, par ex. : python -c "import secrets; print(secrets.token_hex(16))"
+AIRFLOW__WEBSERVER__SECRET_KEY=change_moi

@@ -1,0 +1,20 @@
+relationship abee0a3c-b053-45a9-a6cc-d9277bd5b6d6
+	fromColumn: Stations.code
+	toColumn: StationsGeo.code
+
+relationship 876e1e07-8fc4-4e55-8651-ec6208b435c8
+	fromColumn: StationsGeo.code_territoire
+	toColumn: Territoires.code
+
+relationship f5cb824c-ba97-4205-a3e8-62d13218de16
+	fromColumn: Gares.territoire
+	toColumn: Territoires.nom
+
+relationship 2488d660-4a42-4f72-b0bb-7182c921360b
+	fromColumn: Propositions.territoire
+	toColumn: Territoires.nom
+
+relationship 22e098b9-1798-420e-8239-221ea954c042
+	fromColumn: CarteAnalyse.territoire
+	toColumn: Territoires.nom
+

@@ -1,0 +1,192 @@
+/// Stations Vélib' et disponibilités, lues en direct sur l'API ouverte Vélib' Métropole (format GBFS).
+table Stations
+	lineageTag: 6c01733c-fa6c-48d2-873c-7c159fd95055
+
+	measure 'Vélos disponibles' = SUM(Stations[velos_total])
+		formatString: #,0
+		lineageTag: 071bc77c-ca4b-4537-bf05-aa2533e7dec9
+
+	measure 'Vélos mécaniques' = SUM(Stations[velos_meca])
+		formatString: #,0
+		lineageTag: b9264a90-4b1f-4323-bb60-8ab3d7c23462
+
+	measure 'Vélos électriques' = SUM(Stations[velos_elec])
+		formatString: #,0
+		lineageTag: 2316035c-57d6-48c8-aa6d-e178bc7e4906
+
+	measure 'Places libres' = SUM(Stations[bornes_libres])
+		formatString: #,0
+		lineageTag: 041bba87-804f-484a-b4c9-f27856ee9401
+
+	measure 'Stations en service' = CALCULATE(COUNTROWS(Stations), Stations[en_service] = 1)
+		formatString: #,0
+		lineageTag: c8c9ff23-dd8b-4a24-a016-786f2113ce59
+
+	measure 'Stations vides' = CALCULATE(COUNTROWS(Stations), Stations[etat] = "Vide")
+		formatString: #,0
+		lineageTag: 531f2361-81c2-4ced-9e9a-8e30e3251066
+
+	measure 'Part de stations vides' = DIVIDE([Stations vides], [Stations en service])
+		formatString: 0.0 %
+		lineageTag: b4205f5b-c5fb-46f7-bc64-8bcabd4873a8
+
+	measure 'Taux d''occupation' = DIVIDE([Vélos disponibles], [Vélos disponibles] + [Places libres])
+		formatString: 0 %
+		lineageTag: d242b83c-390f-4c3b-b934-ae405fe16446
+
+	measure 'Part électrique' = DIVIDE([Vélos électriques], [Vélos disponibles])
+		formatString: 0 %
+		lineageTag: 728a8ef3-747e-4374-9e96-85b7ba653669
+
+	measure Station = SELECTEDVALUE(Stations[nom], "Plusieurs stations")
+		lineageTag: bf2dc073-ad0f-48e8-b4dc-a083bf1af8bd
+
+	measure 'Mise à jour' = "Données Vélib' Métropole du " & FORMAT(MAX(Stations[maj_flux]), "dd/mm/yyyy \à hh:nn")
+		lineageTag: c248b4ae-f342-4ac3-bcae-cd85b9b37c9d
+
+	column code
+		dataType: string
+		lineageTag: 4b1b5cf0-659e-4ed2-8236-d5f73dfa994e
+		summarizeBy: none
+		sourceColumn: code
+
+		annotation SummarizationSetBy = Automatic
+
+	column station_id
+		dataType: string
+		isHidden
+		lineageTag: 7da1db71-b76e-4a0c-b012-d1193cba0611
+		summarizeBy: none
+		sourceColumn: station_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column nom
+		dataType: string
+		lineageTag: 1c3a72df-9e6c-4d6d-9ba1-d81e8e788643
+		summarizeBy: none
+		sourceColumn: nom
+
+		annotation SummarizationSetBy = Automatic
+
+	column lat
+		dataType: double
+		lineageTag: ec9830d4-6309-438e-b6bd-ef5c4e4906d2
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: lat
+
+		annotation SummarizationSetBy = Automatic
+
+	column lon
+		dataType: double
+		lineageTag: d68edbd1-74bb-47fe-a094-c6b3b6d9a71b
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: lon
+
+		annotation SummarizationSetBy = Automatic
+
+	column capacite
+		dataType: int64
+		formatString: 0
+		lineageTag: 981f75ba-97cc-4767-9412-7a6a3a2faa23
+		summarizeBy: sum
+		sourceColumn: capacite
+
+		annotation SummarizationSetBy = Automatic
+
+	column velos_meca
+		dataType: int64
+		formatString: 0
+		lineageTag: f1f62ec0-f784-4ea9-a150-565629c3d8f0
+		summarizeBy: sum
+		sourceColumn: velos_meca
+
+		annotation SummarizationSetBy = Automatic
+
+	column velos_elec
+		dataType: int64
+		formatString: 0
+		lineageTag: 6d076c82-b197-4a26-9a6b-dadaf57043cb
+		summarizeBy: sum
+		sourceColumn: velos_elec
+
+		annotation SummarizationSetBy = Automatic
+
+	column velos_total
+		dataType: int64
+		formatString: 0
+		lineageTag: f1764d5f-af70-4197-a76c-a109888237b5
+		summarizeBy: sum
+		sourceColumn: velos_total
+
+		annotation SummarizationSetBy = Automatic
+
+	column bornes_libres
+		dataType: int64
+		formatString: 0
+		lineageTag: 71b6eb2f-5da8-40e6-acf9-b455047f8914
+		summarizeBy: sum
+		sourceColumn: bornes_libres
+
+		annotation SummarizationSetBy = Automatic
+
+	column en_service
+		dataType: int64
+		formatString: 0
+		lineageTag: ea8b55ce-d67e-4525-8ca3-5e048c4cbcb4
+		summarizeBy: none
+		sourceColumn: en_service
+
+		annotation SummarizationSetBy = Automatic
+
+	column derniere_maj
+		dataType: dateTime
+		formatString: dd/mm/yyyy hh:nn
+		lineageTag: 2f6f1a62-b0c0-4108-a615-7d13485d79dc
+		summarizeBy: none
+		sourceColumn: derniere_maj
+
+		annotation SummarizationSetBy = Automatic
+
+	column etat
+		dataType: string
+		lineageTag: 277f0cf6-0bc1-4728-bc29-d1221b708855
+		summarizeBy: none
+		sourceColumn: etat
+		sortByColumn: ordre_etat
+
+		annotation SummarizationSetBy = Automatic
+
+	column ordre_etat
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 299fca45-f30f-48fe-8fbc-824ab9db1660
+		summarizeBy: none
+		sourceColumn: ordre_etat
+
+		annotation SummarizationSetBy = Automatic
+
+	column maj_flux
+		dataType: dateTime
+		isHidden
+		formatString: dd/mm/yyyy hh:nn
+		lineageTag: 5f7347eb-8ab0-457a-8a4b-f163585bf8bf
+		summarizeBy: none
+		sourceColumn: maj_flux
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Stations = m
+		mode: directQuery
+		source =
+				let
+				    Source = PostgreSQL.Database("localhost:5432", "velib"),
+				    Vue = Source{[Schema = "public", Item = "v_stations_live"]}[Data]
+				in
+				    Vue
+
+	annotation PBI_ResultType = Table
+

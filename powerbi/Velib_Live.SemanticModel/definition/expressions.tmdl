@@ -1,0 +1,5 @@
+expression DossierDonnees = "C:\Users\User\Documents\Velib_Live\powerbi\donnees\" meta [IsParameterQuery = true, Type = "Text", IsParameterQueryRequired = true]
+	lineageTag: dd5fe948-219a-4408-b972-6d90fee12a85
+
+	annotation PBI_ResultType = Text
+

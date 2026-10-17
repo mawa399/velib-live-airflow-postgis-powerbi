@@ -1,0 +1,84 @@
+/// Indicateurs géomatiques par station calculés dans ArcGIS Pro (population INSEE à moins de 300 m de marche).
+table StationsGeo
+	lineageTag: a9a90ebc-97ed-41e7-9a42-b50b916d67a9
+
+	measure 'Habitants à 300 m' = SUM(StationsGeo[habitants_300m])
+		formatString: #,0
+		lineageTag: 9f888b52-4811-4aea-9f8c-9fce45fd8397
+
+	measure 'Habitants par borne' = DIVIDE(SUM(StationsGeo[habitants_300m]), SUM(Stations[capacite]))
+		formatString: #,0
+		lineageTag: b074b911-0581-4caf-8012-f11c8a8a72e2
+
+	column station_id
+		dataType: string
+		isHidden
+		lineageTag: ae02061d-c30a-4da2-bc27-2931110102cd
+		summarizeBy: none
+		sourceColumn: station_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column code
+		dataType: string
+		lineageTag: 75b3d6fa-7969-4b27-b378-d32071b75fcc
+		summarizeBy: none
+		sourceColumn: code
+
+		annotation SummarizationSetBy = Automatic
+
+	column code_territoire
+		dataType: string
+		isHidden
+		lineageTag: 6838dc8d-e333-4308-a5fd-3700461ff135
+		summarizeBy: none
+		sourceColumn: code_territoire
+
+		annotation SummarizationSetBy = Automatic
+
+	column territoire
+		dataType: string
+		lineageTag: 3ada089f-7368-4118-afce-75eb621de161
+		summarizeBy: none
+		sourceColumn: territoire
+
+		annotation SummarizationSetBy = Automatic
+
+	column departement
+		dataType: string
+		lineageTag: 99515da4-1943-4e56-9519-6c5288a281b4
+		summarizeBy: none
+		sourceColumn: departement
+
+		annotation SummarizationSetBy = Automatic
+
+	column habitants_300m
+		dataType: int64
+		formatString: #,0
+		lineageTag: 144e76bc-0427-492d-8547-f1f7dc049212
+		summarizeBy: sum
+		sourceColumn: habitants_300m
+
+		annotation SummarizationSetBy = Automatic
+
+	column habitants_par_borne
+		dataType: double
+		formatString: 0.0
+		lineageTag: 3fe1431e-df0a-4d31-97b5-d2a1b8fec659
+		summarizeBy: average
+		sourceColumn: habitants_par_borne
+
+		annotation SummarizationSetBy = Automatic
+
+	partition StationsGeo = m
+		mode: import
+		source =
+				let
+				    Source = Json.Document(File.Contents(DossierDonnees & "stations_geo.json")),
+				    Table0 = Table.FromRecords(Source),
+				    Types = Table.TransformColumnTypes(Table0, {{"station_id", type text}, {"code", type text}, {"code_territoire", type text}, {"territoire", type text}, {"departement", type text}, {"habitants_300m", Int64.Type}, {"habitants_par_borne", type number}}, "en-US")
+				in
+				    Types
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,436 @@
+cultureInfo fr-FR
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "stations.etat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Stations",
+			          "ConceptualProperty": "etat"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "État": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "État de la station": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "stations.vélos_disponibles": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Stations",
+			          "ConceptualProperty": "Vélos disponibles"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Vélos disponibles": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "stations.vélos_électriques": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Stations",
+			          "ConceptualProperty": "Vélos électriques"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dont électriques": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Électriques": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "stations.places_libres": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Stations",
+			          "ConceptualProperty": "Places libres"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Places libres pour déposer": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Places libres": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "stations.part_de_stations_vides": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Stations",
+			          "ConceptualProperty": "Part de stations vides"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Stations vides": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "stations.taux_doccupation": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Stations",
+			          "ConceptualProperty": "Taux d'occupation"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Taux d'occupation des bornes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "stations.mise_à_jour": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Stations",
+			          "ConceptualProperty": "Mise à jour"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "stations.vélos_mécaniques": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Stations",
+			          "ConceptualProperty": "Vélos mécaniques"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Mécaniques": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "stations.station": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Stations",
+			          "ConceptualProperty": "Station"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "territoires.nom": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Territoires",
+			          "ConceptualProperty": "nom"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Commune / arrondissement": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Commune": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "territoires.departement": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Territoires",
+			          "ConceptualProperty": "departement"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Département": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "territoires.population_totale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Territoires",
+			          "ConceptualProperty": "Population totale"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Habitants": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "territoires.taux_de_couverture": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Territoires",
+			          "ConceptualProperty": "Taux de couverture"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Couverture 300 m": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Habitants à moins de 300 m à pied": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "territoires.bornes_pour_1_000_habitants": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Territoires",
+			          "ConceptualProperty": "Bornes pour 1 000 habitants"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Bornes / 1 000 hab.": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "territoires.habitants_non_couverts": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Territoires",
+			          "ConceptualProperty": "Habitants non couverts"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Habitants hors couverture": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "stationsgeo.departement": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StationsGeo",
+			          "ConceptualProperty": "departement"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Département": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "stationsgeo.habitants_par_borne": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "StationsGeo",
+			          "ConceptualProperty": "Habitants par borne"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "habitants par borne à 300 m": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "gares.gares_sans_vélib_à_150_m": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Gares",
+			          "ConceptualProperty": "Gares sans Vélib' à 150 m"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Gares sans Vélib' à 150 m": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "propositions.habitants_gagnés": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Propositions",
+			          "ConceptualProperty": "Habitants gagnés"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Habitants gagnés avec 20 nouvelles stations": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

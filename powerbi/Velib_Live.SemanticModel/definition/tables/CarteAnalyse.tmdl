@@ -1,0 +1,86 @@
+/// Couche combinée pour la carte d'analyse : zones blanches, nouvelles stations proposées, gares sans Vélib'.
+table CarteAnalyse
+	lineageTag: d7753236-cf30-4869-9166-accef30a67d3
+
+	column type
+		dataType: string
+		lineageTag: 8060d04e-1c54-4ee0-8919-a171e874f446
+		summarizeBy: none
+		sourceColumn: type
+
+		annotation SummarizationSetBy = Automatic
+
+	column nom
+		dataType: string
+		lineageTag: 7627f7c6-ccc8-427e-a37c-6fe3edadcd22
+		summarizeBy: none
+		sourceColumn: nom
+
+		annotation SummarizationSetBy = Automatic
+
+	column territoire
+		dataType: string
+		lineageTag: 7c3a12af-92df-4d46-b4ab-6aceb8645f45
+		summarizeBy: none
+		sourceColumn: territoire
+
+		annotation SummarizationSetBy = Automatic
+
+	column departement
+		dataType: string
+		lineageTag: de67561e-390b-42c6-8946-e34ad543f3ee
+		summarizeBy: none
+		sourceColumn: departement
+
+		annotation SummarizationSetBy = Automatic
+
+	column valeur
+		dataType: int64
+		formatString: #,0
+		lineageTag: afb4d5f8-3443-40db-a19d-6abbb1cf935a
+		summarizeBy: sum
+		sourceColumn: valeur
+
+		annotation SummarizationSetBy = Automatic
+
+	column lat
+		dataType: double
+		lineageTag: 74045fd7-4e9d-4cdf-b36d-22e22c332b9e
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: lat
+
+		annotation SummarizationSetBy = Automatic
+
+	column lon
+		dataType: double
+		lineageTag: fcb53a2c-d229-4f55-a2e1-84f76cea1390
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: lon
+
+		annotation SummarizationSetBy = Automatic
+
+	column taille
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 3f6a48d3-191b-4cbb-b688-95c5c01fd169
+		summarizeBy: none
+		sourceColumn: taille
+
+		annotation SummarizationSetBy = Automatic
+
+	partition CarteAnalyse = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DossierDonnees & "carte_analyse.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Entetes = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Types = Table.TransformColumnTypes(Entetes, {{"type", type text}, {"nom", type text}, {"territoire", type text}, {"departement", type text}, {"valeur", Int64.Type}, {"lat", type number}, {"lon", type number}}, "en-US"),
+				Taille = Table.AddColumn(Types, "taille", each if [type] = "Nouvelle station proposée" then 12 else if [type] = "Gare sans Vélib' à 150 m" then 5 else 1, Int64.Type)
+				in
+				    Taille
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "infobulle_station",
+  "displayName": "Infobulle station",
+  "displayOption": "FitToPage",
+  "height": 286,
+  "width": 320,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#FFFFFF'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "type": "Tooltip",
+  "visibility": "HiddenInViewMode",
+  "pageBinding": {
+    "name": "cb6c6b1fa93444a98920",
+    "type": "Tooltip",
+    "parameters": []
+  }
+}

@@ -1,0 +1,400 @@
+gare,lignes,modes,territoire,departement,distance_velib_m,velib_150m,lat,lon
+Gare de Lyon,"METRO 1, METRO 14, RER A, RER D, TRAIN R",METRO/RER/TRAIN,Paris 12e Arrondissement,Paris,144,1,48.844406,2.373693
+Avenue du Président Kennedy Maison de Radio France,RER C,RER,Paris 16e Arrondissement,Paris,106,1,48.853648,2.279487
+Ivry-sur-Seine,RER C,RER,Ivry-sur-Seine,Val-de-Marne,56,1,48.813989,2.391687
+Meudon Val Fleury,RER C,RER,Meudon,Hauts-de-Seine,23,1,48.807493,2.240883
+Invalides,"METRO 13, METRO 8, RER C",METRO/RER,Paris 7e Arrondissement,Paris,92,1,48.861098,2.313773
+Saint-Michel Notre-Dame,"METRO 4, RER B, RER C",METRO/RER,Paris 5e Arrondissement,Paris,24,1,48.85294,2.344198
+Arcueil - Cachan,RER B,RER,Cachan,Val-de-Marne,104,1,48.798893,2.328137
+Luxembourg,RER B,RER,Paris 6e Arrondissement,Paris,51,1,48.845434,2.339763
+Denfert Rochereau,"METRO 4, METRO 6, RER B",METRO/RER,Paris 14e Arrondissement,Paris,66,1,48.833606,2.332599
+Auber,RER A,RER,Paris 9e Arrondissement,Paris,37,1,48.872157,2.329927
+Fontenay-sous-Bois,RER A,RER,Fontenay-sous-Bois,Val-de-Marne,38,1,48.843794,2.463501
+Joinville-le-Pont,RER A,RER,Joinville-le-Pont,Val-de-Marne,159,0,48.821039,2.463857
+Nation,"METRO 1, METRO 2, METRO 6, METRO 9, RER A",METRO/RER,Paris 12e Arrondissement,Paris,112,1,48.848122,2.395556
+Nanterre Préfecture / Esplanade Charles De Gaulle,RER A,RER,Nanterre,Hauts-de-Seine,51,1,48.895745,2.223213
+Rueil-Malmaison,RER A,RER,Rueil-Malmaison,Hauts-de-Seine,155,0,48.887574,2.172579
+Charles-de-Gaulle Étoile,"METRO 1, METRO 2, METRO 6, RER A",METRO/RER,Paris 17e Arrondissement,Paris,97,1,48.874728,2.29551
+Clichy - Levallois,TRAIN L,TRAIN,Levallois-Perret,Hauts-de-Seine,121,1,48.897637,2.29742
+La Garenne-Colombes,TRAIN L,TRAIN,Colombes,Hauts-de-Seine,42,1,48.909633,2.239684
+Sèvres - Ville-d'Avray,"TRAIN L, TRAIN U",TRAIN,Sèvres,Hauts-de-Seine,116,1,48.827239,2.200721
+Saint-Cloud,"TRAIN L, TRAIN U",TRAIN,Saint-Cloud,Hauts-de-Seine,493,0,48.846103,2.217621
+La Défense (Grande Arche),"METRO 1, RER A, RER E, TRAIN L, TRAIN U",METRO/RER/TRAIN,Puteaux,Hauts-de-Seine,634,0,48.892223,2.237844
+Gare de Bercy,"GL, METRO 14, METRO 6",METRO/TRAIN,Paris 12e Arrondissement,Paris,130,1,48.839824,2.380831
+Gare du Nord,"METRO 4, METRO 5, RER B, RER D, TRAIN H, TRAIN K",METRO/RER/TRAIN,Paris 10e Arrondissement,Paris,117,1,48.880892,2.35687
+Sèvres Rive Gauche,TRAIN N,TRAIN,Sèvres,Hauts-de-Seine,30,1,48.821217,2.21486
+Gare du Nord,RER E,RER,Paris 10e Arrondissement,Paris,48,1,48.880775,2.358733
+Rosa Parks,RER E,RER,Paris 19e Arrondissement,Paris,46,1,48.896581,2.373819
+Havre - Caumartin,"METRO 3, METRO 9",METRO,Paris 9e Arrondissement,Paris,109,1,48.873613,2.327619
+Péreire,"METRO 3, RER C",METRO/RER,Paris 17e Arrondissement,Paris,28,1,48.885469,2.298502
+Corvisart,METRO 6,METRO,Paris 13e Arrondissement,Paris,36,1,48.829791,2.350415
+Chevaleret,METRO 6,METRO,Paris 13e Arrondissement,Paris,96,1,48.834948,2.368126
+Glacière,METRO 6,METRO,Paris 13e Arrondissement,Paris,23,1,48.83113,2.343512
+Nationale,METRO 6,METRO,Paris 13e Arrondissement,Paris,85,1,48.833217,2.362856
+Picpus,METRO 6,METRO,Paris 12e Arrondissement,Paris,22,1,48.845062,2.401289
+Raspail,"METRO 4, METRO 6",METRO,Paris 14e Arrondissement,Paris,91,1,48.838964,2.330754
+Saint-Jacques,METRO 6,METRO,Paris 14e Arrondissement,Paris,38,1,48.832901,2.337135
+Kléber,METRO 6,METRO,Paris 16e Arrondissement,Paris,207,0,48.871262,2.293241
+Carrefour Pleyel,METRO 13,METRO,Saint-Denis,Seine-Saint-Denis,174,0,48.919008,2.342608
+Place de Clichy,"METRO 13, METRO 2",METRO,Paris 18e Arrondissement,Paris,27,1,48.883902,2.327887
+Saint-Denis Porte de Paris,METRO 13,METRO,Saint-Denis,Seine-Saint-Denis,32,1,48.929936,2.356036
+Saint-Denis Université (Paris 8),METRO 13,METRO,Saint-Denis,Seine-Saint-Denis,65,1,48.945867,2.364636
+Saint-François Xavier,METRO 13,METRO,Paris 7e Arrondissement,Paris,19,1,48.851442,2.314408
+Varenne,METRO 13,METRO,Paris 7e Arrondissement,Paris,40,1,48.856871,2.315057
+Gare Montparnasse,"METRO 12, METRO 13, METRO 4, METRO 6, TRAIN N",METRO/TRAIN,Paris 15e Arrondissement,Paris,135,1,48.842627,2.322305
+Nanterre Université,"RER A, TRAIN L",RER/TRAIN,Nanterre,Hauts-de-Seine,59,1,48.901161,2.213429
+Madeleine,"METRO 12, METRO 14, METRO 8",METRO,Paris 8e Arrondissement,Paris,63,1,48.870178,2.325729
+Bibliothèque François Mitterrand Emile Durkheim,"METRO 14, RER C",METRO/RER,Paris 13e Arrondissement,Paris,92,1,48.829394,2.377182
+Iéna,METRO 9,METRO,Paris 16e Arrondissement,Paris,110,1,48.864794,2.294162
+Michel-Ange - Auteuil,"METRO 10, METRO 9",METRO,Paris 16e Arrondissement,Paris,99,1,48.847915,2.26415
+Miromesnil,"METRO 13, METRO 9",METRO,Paris 8e Arrondissement,Paris,92,1,48.873752,2.3146
+Saint-Philippe du Roule,METRO 9,METRO,Paris 8e Arrondissement,Paris,100,1,48.872046,2.310019
+Ranelagh,METRO 9,METRO,Paris 16e Arrondissement,Paris,25,1,48.855485,2.270109
+Saint-Ambroise,METRO 9,METRO,Paris 11e Arrondissement,Paris,90,1,48.861476,2.373944
+Voltaire,METRO 9,METRO,Paris 11e Arrondissement,Paris,131,1,48.857878,2.380021
+Cardinal Lemoine,METRO 10,METRO,Paris 5e Arrondissement,Paris,56,1,48.846657,2.351623
+Maubert Mutualité,METRO 10,METRO,Paris 5e Arrondissement,Paris,97,1,48.85009,2.348209
+Opéra,"METRO 3, METRO 7, METRO 8",METRO,Paris 9e Arrondissement,Paris,169,0,48.870577,2.331758
+Quatre Septembre,METRO 3,METRO,Paris 2e Arrondissement,Paris,37,1,48.869638,2.336233
+Bastille,"METRO 1, METRO 5, METRO 8",METRO,Paris 4e Arrondissement,Paris,92,1,48.852962,2.368975
+Oberkampf,"METRO 5, METRO 9",METRO,Paris 11e Arrondissement,Paris,100,1,48.864992,2.367956
+Bobigny - Pantin - Raymond Queneau,METRO 5,METRO,Pantin,Seine-Saint-Denis,52,1,48.895455,2.425327
+Marcadet Poissonniers,"METRO 12, METRO 4",METRO,Paris 18e Arrondissement,Paris,80,1,48.891452,2.349721
+Mouton Duvernet,METRO 4,METRO,Paris 14e Arrondissement,Paris,65,1,48.831113,2.329705
+Saint-Germain-des-Prés,METRO 4,METRO,Paris 6e Arrondissement,Paris,68,1,48.853719,2.333776
+Vavin,METRO 4,METRO,Paris 6e Arrondissement,Paris,82,1,48.842218,2.329009
+Saint-Sulpice,METRO 4,METRO,Paris 6e Arrondissement,Paris,65,1,48.851071,2.330701
+Argentine,METRO 1,METRO,Paris 17e Arrondissement,Paris,171,0,48.875337,2.290128
+George V,METRO 1,METRO,Paris 8e Arrondissement,Paris,33,1,48.872024,2.30056
+Daumesnil,"METRO 6, METRO 8",METRO,Paris 12e Arrondissement,Paris,96,1,48.839498,2.395943
+Félix Faure,METRO 8,METRO,Paris 15e Arrondissement,Paris,40,1,48.842747,2.291912
+Ledru Rollin,METRO 8,METRO,Paris 12e Arrondissement,Paris,105,1,48.851524,2.375101
+Maisons-Alfort Les Juilliottes,METRO 8,METRO,Maisons-Alfort,Val-de-Marne,190,0,48.803355,2.445574
+Arts et Métiers,"METRO 11, METRO 3",METRO,Paris 3e Arrondissement,Paris,27,1,48.865455,2.356733
+Rambuteau,METRO 11,METRO,Paris 4e Arrondissement,Paris,71,1,48.861205,2.353496
+République,"METRO 11, METRO 3, METRO 5, METRO 8, METRO 9",METRO,Paris 10e Arrondissement,Paris,51,1,48.867647,2.36375
+Mairie d'Ivry,METRO 7,METRO,Ivry-sur-Seine,Val-de-Marne,6,1,48.810521,2.38429
+Palais Royal - Musée Du Louvre,"METRO 1, METRO 7",METRO,Paris 1er Arrondissement,Paris,134,1,48.862589,2.336687
+Pyramides,"METRO 14, METRO 7",METRO,Paris 1er Arrondissement,Paris,74,1,48.865822,2.334314
+Riquet,METRO 7,METRO,Paris 19e Arrondissement,Paris,23,1,48.887968,2.373457
+Concorde,"METRO 1, METRO 12, METRO 8",METRO,Paris 8e Arrondissement,Paris,182,0,48.866424,2.322734
+Falguière,METRO 12,METRO,Paris 15e Arrondissement,Paris,16,1,48.84447,2.317853
+Notre-Dame-des-Champs,METRO 12,METRO,Paris 6e Arrondissement,Paris,44,1,48.844943,2.328778
+Sèvres Babylone,"METRO 10, METRO 12",METRO,Paris 7e Arrondissement,Paris,94,1,48.851397,2.326462
+Porte de Versailles,METRO 12,METRO,Paris 15e Arrondissement,Paris,37,1,48.832449,2.288022
+Porte de La Chapelle,METRO 12,METRO,Paris 18e Arrondissement,Paris,129,1,48.897245,2.359508
+Assemblée Nationale / Lille - Université,METRO 12,METRO,Paris 7e Arrondissement,Paris,95,1,48.860787,2.320998
+Pelleport,METRO 3bis,METRO,Paris 20e Arrondissement,Paris,104,1,48.86844,2.401562
+Charenton - Écoles,METRO 8,METRO,Charenton-le-Pont,Val-de-Marne,10,1,48.821898,2.413133
+Chemin Vert,METRO 8,METRO,Paris 3e Arrondissement,Paris,106,1,48.857103,2.368184
+Chaville Rive Gauche,TRAIN N,TRAIN,Chaville,Hauts-de-Seine,74,1,48.805196,2.189278
+Censier Daubenton,METRO 7,METRO,Paris 5e Arrondissement,Paris,164,0,48.840234,2.351606
+Corentin Cariou,METRO 7,METRO,Paris 19e Arrondissement,Paris,21,1,48.894656,2.38216
+Stalingrad,"METRO 2, METRO 5, METRO 7",METRO,Paris 19e Arrondissement,Paris,71,1,48.884469,2.367591
+Chaville Rive Droite,"TRAIN L, TRAIN U",TRAIN,Chaville,Hauts-de-Seine,288,0,48.812572,2.18826
+Javel,"METRO 10, RER C",METRO/RER,Paris 15e Arrondissement,Paris,52,1,48.846657,2.278218
+Gare Saint-Lazare,"METRO 12, METRO 13, METRO 14, METRO 3, TRAIN J, TRAIN L",METRO/TRAIN,Paris 8e Arrondissement,Paris,102,1,48.87594,2.325233
+Mairie d'Aubervilliers,METRO 12,METRO,Aubervilliers,Seine-Saint-Denis,207,0,48.913711,2.380736
+Courcelles,METRO 2,METRO,Paris 8e Arrondissement,Paris,47,1,48.87933,2.30407
+Buzenval / Avron,METRO 9,METRO,Paris 20e Arrondissement,Paris,50,1,48.851975,2.401927
+Jaurès,"METRO 2, METRO 5, METRO 7bis",METRO,Paris 19e Arrondissement,Paris,86,1,48.882428,2.370783
+Laumière,METRO 5,METRO,Paris 19e Arrondissement,Paris,102,1,48.884971,2.378717
+Châtelet,"METRO 1, METRO 11, METRO 14, METRO 4, METRO 7",METRO,Paris 1er Arrondissement,Paris,67,1,48.858634,2.347047
+Pont de Rungis Aéroport d'Orly,"METRO 14, RER C",METRO/RER,Thiais,Val-de-Marne,1544,0,48.747664,2.372976
+Guy-Môquet,METRO 13,METRO,Paris 18e Arrondissement,Paris,65,1,48.892207,2.32722
+Le Vert de Maisons,RER D,RER,Maisons-Alfort,Val-de-Marne,192,0,48.788467,2.432244
+Saint-Denis,"RER D, TRAIN H",RER/TRAIN,Saint-Denis,Seine-Saint-Denis,166,0,48.934456,2.345604
+Gennevilliers,RER C,RER,Gennevilliers,Hauts-de-Seine,130,1,48.932896,2.307943
+Les Grésillons,RER C,RER,Gennevilliers,Hauts-de-Seine,121,1,48.920873,2.313835
+Orly Ville,RER C,RER,Orly,Val-de-Marne,169,0,48.741879,2.402909
+Pont de l'Alma,RER C,RER,Paris 7e Arrondissement,Paris,276,0,48.862662,2.30099
+Issy,RER C,RER,Issy-les-Moulineaux,Hauts-de-Seine,285,0,48.819344,2.257894
+Issy Val de Seine,RER C,RER,Issy-les-Moulineaux,Hauts-de-Seine,106,1,48.830595,2.26407
+Colombes,TRAIN J,TRAIN,Colombes,Hauts-de-Seine,103,1,48.923919,2.259346
+Pont Cardinet,"METRO 14, TRAIN L",METRO/TRAIN,Paris 17e Arrondissement,Paris,193,0,48.88889,2.314455
+Clamart,TRAIN N,TRAIN,Clamart,Hauts-de-Seine,236,0,48.814239,2.27449
+Vanves - Malakoff,TRAIN N,TRAIN,Vanves,Hauts-de-Seine,69,1,48.818388,2.292062
+Gare Saint-Lazare,RER E,RER,Paris 9e Arrondissement,Paris,66,1,48.874997,2.328686
+Cluny - La Sorbonne,METRO 10,METRO,Paris 5e Arrondissement,Paris,68,1,48.85105,2.344273
+Barbès Rochechouart,"METRO 2, METRO 4",METRO,Paris 10e Arrondissement,Paris,121,1,48.883611,2.350144
+Ménilmontant,METRO 2,METRO,Paris 20e Arrondissement,Paris,47,1,48.866447,2.383599
+Ternes,METRO 2,METRO,Paris 8e Arrondissement,Paris,67,1,48.877973,2.29831
+Victor Hugo,METRO 2,METRO,Paris 16e Arrondissement,Paris,60,1,48.869799,2.285335
+Passy,METRO 6,METRO,Paris 16e Arrondissement,Paris,178,0,48.857449,2.285812
+Place d'Italie - Italie 2,"METRO 5, METRO 6, METRO 7",METRO,Paris 13e Arrondissement,Paris,82,1,48.831111,2.355782
+Sèvres Lecourbe,METRO 6,METRO,Paris 15e Arrondissement,Paris,145,1,48.845627,2.309531
+Trocadéro,"METRO 6, METRO 9",METRO,Paris 16e Arrondissement,Paris,36,1,48.863338,2.286912
+Duroc,"METRO 10, METRO 13",METRO,Paris 7e Arrondissement,Paris,157,0,48.847021,2.316715
+Brochant,METRO 13,METRO,Paris 17e Arrondissement,Paris,43,1,48.890587,2.320175
+Champs-Élysées Clemenceau,"METRO 1, METRO 13",METRO,Paris 8e Arrondissement,Paris,186,0,48.867754,2.31372
+Malakoff - Étienne Dolet,METRO 13,METRO,Malakoff,Hauts-de-Seine,74,1,48.815308,2.297078
+La Fourche,METRO 13,METRO,Paris 18e Arrondissement,Paris,57,1,48.887184,2.32578
+Mairie de Saint-Ouen,"METRO 13, METRO 14",METRO,Saint-Ouen-sur-Seine,Seine-Saint-Denis,135,1,48.912583,2.334294
+Porte de Saint-Ouen,METRO 13,METRO,Paris 18e Arrondissement,Paris,69,1,48.897375,2.328943
+Cour Saint-Emilion,METRO 14,METRO,Paris 12e Arrondissement,Paris,43,1,48.833339,2.386632
+Porte de Clichy,"METRO 13, METRO 14, RER C",METRO/RER,Paris 17e Arrondissement,Paris,42,1,48.894467,2.314054
+Jasmin,METRO 9,METRO,Paris 16e Arrondissement,Paris,46,1,48.852504,2.268177
+Marcel Sembat,METRO 9,METRO,Boulogne-Billancourt,Hauts-de-Seine,58,1,48.833629,2.243579
+Porte de Saint-Cloud,METRO 9,METRO,Paris 16e Arrondissement,Paris,69,1,48.837961,2.257122
+Mairie de Montreuil,METRO 9,METRO,Montreuil,Seine-Saint-Denis,128,1,48.862299,2.441522
+Mirabeau,METRO 10,METRO,Paris 16e Arrondissement,Paris,80,1,48.847131,2.272764
+Odéon,"METRO 10, METRO 4",METRO,Paris 6e Arrondissement,Paris,93,1,48.852118,2.34017
+Mabillon,METRO 10,METRO,Paris 6e Arrondissement,Paris,83,1,48.853017,2.335502
+Europe,METRO 3,METRO,Paris 8e Arrondissement,Paris,148,1,48.87877,2.322265
+Sentier,METRO 3,METRO,Paris 2e Arrondissement,Paris,131,1,48.867513,2.346552
+Wagram,METRO 3,METRO,Paris 17e Arrondissement,Paris,85,1,48.883809,2.304674
+Pont de Levallois,METRO 3,METRO,Levallois-Perret,Hauts-de-Seine,169,0,48.897154,2.280414
+Bréguet-Sabin,METRO 5,METRO,Paris 11e Arrondissement,Paris,94,1,48.856141,2.370209
+Bobigny Pablo Picasso,METRO 5,METRO,Bobigny,Seine-Saint-Denis,294,0,48.906375,2.44919
+Saint-Marcel,METRO 5,METRO,Paris 13e Arrondissement,Paris,88,1,48.838427,2.360967
+Hoche,METRO 5,METRO,Pantin,Seine-Saint-Denis,39,1,48.891229,2.402352
+Gare d'Austerlitz,"METRO 10, METRO 5, RER C",METRO/RER,Paris 13e Arrondissement,Paris,120,1,48.842442,2.3654
+Porte d'Orléans,METRO 4,METRO,Paris 14e Arrondissement,Paris,86,1,48.823412,2.325576
+Réaumur Sébastopol,"METRO 3, METRO 4",METRO,Paris 2e Arrondissement,Paris,112,1,48.866615,2.352094
+Hôtel de Ville de Paris - 4ème Arrondissement,"METRO 1, METRO 11",METRO,Paris 4e Arrondissement,Paris,19,1,48.857465,2.351293
+Louvre Rivoli,METRO 1,METRO,Paris 1er Arrondissement,Paris,60,1,48.860806,2.341109
+Reuilly Diderot,"METRO 1, METRO 8",METRO,Paris 12e Arrondissement,Paris,6,1,48.847154,2.386134
+Porte de Vincennes,METRO 1,METRO,Paris 20e Arrondissement,Paris,150,1,48.847336,2.408089
+Place des Fêtes,"METRO 11, METRO 7bis",METRO,Paris 19e Arrondissement,Paris,77,1,48.876878,2.39302
+Pré Saint-Gervais,METRO 7bis,METRO,Paris 19e Arrondissement,Paris,43,1,48.880272,2.398468
+Créteil Université,METRO 8,METRO,Créteil,Val-de-Marne,227,0,48.78992,2.450512
+Saint-Sébastien Froissart,METRO 8,METRO,Paris 11e Arrondissement,Paris,43,1,48.861169,2.367211
+Porte Dorée,METRO 8,METRO,Paris 12e Arrondissement,Paris,186,0,48.834785,2.405383
+Jussieu,"METRO 10, METRO 7",METRO,Paris 5e Arrondissement,Paris,65,1,48.846051,2.354984
+Porte de Choisy,METRO 7,METRO,Paris 13e Arrondissement,Paris,182,0,48.819876,2.364532
+Sully Morland,METRO 7,METRO,Paris 4e Arrondissement,Paris,76,1,48.851621,2.361525
+Porte d'Italie,METRO 7,METRO,Paris 13e Arrondissement,Paris,82,1,48.819223,2.359705
+La Courneuve - 8 Mai 1945,METRO 7,METRO,La Courneuve,Seine-Saint-Denis,763,0,48.920786,2.410599
+Maison Blanche,"METRO 14, METRO 7",METRO,Paris 13e Arrondissement,Paris,60,1,48.821802,2.358803
+Pont Neuf,METRO 7,METRO,Paris 1er Arrondissement,Paris,169,0,48.858554,2.342233
+Fort d'Aubervilliers,METRO 7,METRO,Aubervilliers,Seine-Saint-Denis,65,1,48.91495,2.404409
+Poissonnière,METRO 7,METRO,Paris 9e Arrondissement,Paris,60,1,48.8771,2.348776
+Pigalle,"METRO 12, METRO 2",METRO,Paris 9e Arrondissement,Paris,127,1,48.882237,2.337699
+Créteil L'Échat,METRO 8,METRO,Créteil,Val-de-Marne,404,0,48.796682,2.449413
+La Motte Picquet - Grenelle,"METRO 10, METRO 6, METRO 8",METRO,Paris 15e Arrondissement,Paris,92,1,48.849297,2.298727
+Pointe du Lac,METRO 8,METRO,Créteil,Val-de-Marne,110,1,48.768811,2.46428
+Bonne Nouvelle,"METRO 8, METRO 9",METRO,Paris 10e Arrondissement,Paris,87,1,48.87059,2.348491
+Nanterre-La-Folie,RER E,RER,Nanterre,Hauts-de-Seine,202,0,48.897587,2.223739
+Chaussée d'Antin - La Fayette,"METRO 7, METRO 9",METRO,Paris 9e Arrondissement,Paris,80,1,48.873029,2.334201
+Convention,METRO 12,METRO,Paris 15e Arrondissement,Paris,80,1,48.837099,2.296231
+Château Rouge,METRO 4,METRO,Paris 18e Arrondissement,Paris,177,0,48.886711,2.349559
+Croix de Chavaux,METRO 9,METRO,Montreuil,Seine-Saint-Denis,169,0,48.857784,2.434538
+Billancourt,METRO 9,METRO,Boulogne-Billancourt,Hauts-de-Seine,73,1,48.831738,2.237437
+Esplanade de La Défense,METRO 1,METRO,Puteaux,Hauts-de-Seine,370,0,48.888138,2.249793
+Olympiades,METRO 14,METRO,Paris 13e Arrondissement,Paris,160,0,48.827164,2.367173
+Hôpital Bicêtre,METRO 14,METRO,Le Kremlin-Bicêtre,Val-de-Marne,426,0,48.80981,2.34975
+Villejuif - Gustave Roussy,METRO 14,METRO,Villejuif,Val-de-Marne,703,0,48.793055,2.349365
+Rosny Bois Perrier,"METRO 11, RER E",METRO/RER,Rosny-sous-Bois,Seine-Saint-Denis,169,0,48.88264,2.480862
+Montreuil - Hôpital,METRO 11,METRO,Noisy-le-Sec,Seine-Saint-Denis,258,0,48.878337,2.454714
+La Dhuys,METRO 11,METRO,Rosny-sous-Bois,Seine-Saint-Denis,267,0,48.877993,2.465472
+Créteil Pompadour,RER D,RER,Créteil,Val-de-Marne,194,0,48.771266,2.435306
+Pont du Garigliano - Hôpital Européen G. Pompidou,RER C,RER,Paris 15e Arrondissement,Paris,96,1,48.83909,2.270458
+Boulainvilliers,RER C,RER,Paris 16e Arrondissement,Paris,72,1,48.856972,2.274793
+Avenue Foch,RER C,RER,Paris 16e Arrondissement,Paris,122,1,48.86983,2.274808
+Champ de Mars Tour Eiffel,RER C,RER,Paris 15e Arrondissement,Paris,248,0,48.856457,2.289804
+Châtelet les Halles,"RER A, RER B, RER D",RER,Paris 1er Arrondissement,Paris,169,0,48.861822,2.347013
+Robinson,RER B,RER,Sceaux,Hauts-de-Seine,45,1,48.780237,2.281431
+Bois-Colombes,TRAIN J,TRAIN,Bois-Colombes,Hauts-de-Seine,191,0,48.914246,2.271599
+Le Stade,TRAIN J,TRAIN,Colombes,Hauts-de-Seine,83,1,48.931903,2.260965
+Val d'Argenteuil,TRAIN J,TRAIN,Argenteuil,Val-d'Oise,114,1,48.950651,2.232534
+Nanterre Ville,RER A,RER,Nanterre,Hauts-de-Seine,33,1,48.895126,2.195364
+Nogent-sur-Marne,RER A,RER,Nogent-sur-Marne,Val-de-Marne,203,0,48.834289,2.471681
+Val de Fontenay,"RER A, RER E",RER,Fontenay-sous-Bois,Val-de-Marne,168,0,48.854183,2.488932
+Gare de l'Est,"METRO 4, METRO 5, METRO 7, TRAIN P",METRO/TRAIN,Paris 10e Arrondissement,Paris,19,1,48.876441,2.358361
+Garches - Marnes-la-Coquette,TRAIN L,TRAIN,Garches,Hauts-de-Seine,45,1,48.838283,2.187111
+Les Vallées,TRAIN L,TRAIN,Colombes,Hauts-de-Seine,59,1,48.913637,2.257326
+Puteaux,"TRAIN L, TRAIN U",TRAIN,Puteaux,Hauts-de-Seine,404,0,48.883384,2.233692
+Le Val d'Or,TRAIN L,TRAIN,Saint-Cloud,Hauts-de-Seine,97,1,48.856071,2.216601
+Bécon les Bruyères,TRAIN L,TRAIN,Courbevoie,Hauts-de-Seine,160,0,48.905763,2.269965
+Meudon,TRAIN N,TRAIN,Meudon,Hauts-de-Seine,512,0,48.814884,2.240919
+Pantin,RER E,RER,Pantin,Seine-Saint-Denis,95,1,48.898112,2.400362
+Bir-Hakeim,METRO 6,METRO,Paris 15e Arrondissement,Paris,29,1,48.853943,2.289335
+Bel-Air,METRO 6,METRO,Paris 12e Arrondissement,Paris,153,0,48.841338,2.400919
+Dugommier,METRO 6,METRO,Paris 12e Arrondissement,Paris,26,1,48.839041,2.38962
+Edgar Quinet,METRO 6,METRO,Paris 14e Arrondissement,Paris,143,1,48.840663,2.326385
+Gabriel Péri,METRO 13,METRO,Asnières-sur-Seine,Hauts-de-Seine,59,1,48.916382,2.294685
+Porte de Vanves,METRO 13,METRO,Paris 14e Arrondissement,Paris,27,1,48.827796,2.305535
+Les Agnettes,METRO 13,METRO,Gennevilliers,Hauts-de-Seine,611,0,48.923104,2.28628
+Malakoff - Plateau De Vanves,METRO 13,METRO,Malakoff,Hauts-de-Seine,29,1,48.822584,2.298464
+Franklin D. Roosevelt,"METRO 1, METRO 9",METRO,Paris 8e Arrondissement,Paris,141,1,48.869069,2.309056
+Maraîchers,METRO 9,METRO,Paris 20e Arrondissement,Paris,60,1,48.852725,2.406089
+Michel-Ange - Molitor,"METRO 10, METRO 9",METRO,Paris 16e Arrondissement,Paris,268,0,48.845153,2.261684
+Pont de Sèvres,METRO 9,METRO,Boulogne-Billancourt,Hauts-de-Seine,51,1,48.829746,2.231028
+Porte de Montreuil,METRO 9,METRO,Paris 20e Arrondissement,Paris,138,1,48.853773,2.411895
+Avenue Émile Zola,METRO 10,METRO,Paris 15e Arrondissement,Paris,24,1,48.846997,2.295019
+Chardon Lagache,METRO 10,METRO,Paris 16e Arrondissement,Paris,296,0,48.845205,2.266442
+Louise Michel,METRO 3,METRO,Levallois-Perret,Hauts-de-Seine,6,1,48.888706,2.288084
+Rue Saint-Maur,METRO 3,METRO,Paris 11e Arrondissement,Paris,100,1,48.864286,2.379742
+Gallieni,METRO 3,METRO,Bagnolet,Seine-Saint-Denis,105,1,48.865335,2.416697
+Porte de Bagnolet,METRO 3,METRO,Paris 20e Arrondissement,Paris,26,1,48.8646,2.408031
+Quai de la Rapée,METRO 5,METRO,Paris 12e Arrondissement,Paris,84,1,48.846485,2.36591
+Cité,METRO 4,METRO,Paris 4e Arrondissement,Paris,36,1,48.854936,2.347321
+Saint-Placide,METRO 4,METRO,Paris 6e Arrondissement,Paris,57,1,48.846878,2.326793
+Mairie de Montrouge,METRO 4,METRO,Montrouge,Hauts-de-Seine,177,0,48.818676,2.31974
+Porte de Clignancourt,METRO 4,METRO,Paris 18e Arrondissement,Paris,63,1,48.897402,2.344848
+Les Sablons,METRO 1,METRO,Neuilly-sur-Seine,Hauts-de-Seine,49,1,48.881016,2.272239
+Saint-Paul (Le Marais),METRO 1,METRO,Paris 4e Arrondissement,Paris,31,1,48.855236,2.360956
+Saint-Mandé,METRO 1,METRO,Vincennes,Val-de-Marne,147,1,48.846423,2.41876
+Botzaris,METRO 7bis,METRO,Paris 19e Arrondissement,Paris,20,1,48.879493,2.388567
+Buttes Chaumont,METRO 7bis,METRO,Paris 19e Arrondissement,Paris,64,1,48.878514,2.381615
+Louis Blanc,"METRO 7, METRO 7bis",METRO,Paris 10e Arrondissement,Paris,135,1,48.881069,2.364686
+Filles Du Calvaire,METRO 8,METRO,Paris 11e Arrondissement,Paris,72,1,48.863258,2.366661
+La Tour Maubourg,METRO 8,METRO,Paris 7e Arrondissement,Paris,113,1,48.857725,2.310566
+Montgallet,METRO 8,METRO,Paris 12e Arrondissement,Paris,66,1,48.844066,2.390482
+Goncourt,METRO 11,METRO,Paris 11e Arrondissement,Paris,94,1,48.869958,2.371095
+Jourdain,METRO 11,METRO,Paris 20e Arrondissement,Paris,52,1,48.875112,2.389415
+Pierre et Marie Curie,METRO 7,METRO,Ivry-sur-Seine,Val-de-Marne,37,1,48.815931,2.377267
+Place Monge,METRO 7,METRO,Paris 5e Arrondissement,Paris,18,1,48.842867,2.352225
+Porte d'Ivry,METRO 7,METRO,Paris 13e Arrondissement,Paris,55,1,48.821356,2.369291
+Paul Vaillant Couturier,METRO 7,METRO,Villejuif,Val-de-Marne,28,1,48.796483,2.36827
+Porte de La Villette,METRO 7,METRO,Paris 19e Arrondissement,Paris,111,1,48.89739,2.385508
+Lamarck Caulaincourt,METRO 12,METRO,Paris 18e Arrondissement,Paris,43,1,48.889674,2.338761
+Vaugirard,METRO 12,METRO,Paris 15e Arrondissement,Paris,9,1,48.839517,2.301108
+Front Populaire,METRO 12,METRO,Saint-Denis,Seine-Saint-Denis,105,1,48.906567,2.36592
+Rue du Bac,METRO 12,METRO,Paris 7e Arrondissement,Paris,49,1,48.855196,2.325816
+Trinité d'Estienne d'Orves,METRO 12,METRO,Paris 9e Arrondissement,Paris,58,1,48.87633,2.333109
+Gambetta,"METRO 3, METRO 3bis",METRO,Paris 20e Arrondissement,Paris,91,1,48.865071,2.39783
+Porte des Lilas,"METRO 11, METRO 3bis",METRO,Paris 19e Arrondissement,Paris,132,1,48.877143,2.406605
+Fontenay-aux-Roses,RER B,RER,Fontenay-aux-Roses,Hauts-de-Seine,163,0,48.787567,2.292988
+La Plaine Stade de France - Saint-Denis - Aubervilliers,RER B,RER,Saint-Denis,Seine-Saint-Denis,130,1,48.918008,2.362471
+Asnières-sur-Seine,"TRAIN J, TRAIN L",TRAIN,Asnières-sur-Seine,Hauts-de-Seine,59,1,48.9059,2.28311
+Crimée,METRO 7,METRO,Paris 19e Arrondissement,Paris,239,0,48.890906,2.37709
+Aimé Césaire,METRO 12,METRO,Aubervilliers,Seine-Saint-Denis,65,1,48.908082,2.377741
+Saint-Augustin,METRO 9,METRO,Paris 8e Arrondissement,Paris,114,1,48.874476,2.322002
+Charonne,METRO 9,METRO,Paris 11e Arrondissement,Paris,90,1,48.855094,2.3847
+Strasbourg - Saint-Denis,"METRO 4, METRO 8, METRO 9",METRO,Paris 10e Arrondissement,Paris,23,1,48.869478,2.354035
+Saint-Denis – Pleyel,METRO 14,METRO,Saint-Denis,Seine-Saint-Denis,375,0,48.917469,2.346545
+Villiers,"METRO 2, METRO 3",METRO,Paris 8e Arrondissement,Paris,134,1,48.881094,2.314721
+Pierrefitte - Stains,RER D,RER,Saint-Denis,Seine-Saint-Denis,2104,0,48.963755,2.372103
+Stade de France Saint-Denis,RER D,RER,Saint-Denis,Seine-Saint-Denis,168,0,48.917567,2.35039
+Choisy-le-Roi,RER C,RER,Choisy-le-Roi,Val-de-Marne,327,0,48.763787,2.411387
+Les Ardoines,RER C,RER,Vitry-sur-Seine,Val-de-Marne,208,0,48.782226,2.40959
+Les Saules,RER C,RER,Orly,Val-de-Marne,76,1,48.745072,2.417521
+Vitry-sur-Seine,RER C,RER,Vitry-sur-Seine,Val-de-Marne,107,1,48.800209,2.402713
+Musée d'Orsay,RER C,RER,Paris 7e Arrondissement,Paris,96,1,48.860351,2.32676
+Saint-Ouen,"METRO 14, RER C",METRO/RER,Saint-Ouen-sur-Seine,Seine-Saint-Denis,103,1,48.904531,2.322185
+Bagneux,RER B,RER,Cachan,Val-de-Marne,98,1,48.793336,2.322202
+Laplace,RER B,RER,Arcueil,Val-de-Marne,83,1,48.808297,2.334354
+Sceaux,RER B,RER,Sceaux,Hauts-de-Seine,475,0,48.781357,2.297648
+Cité universitaire,RER B,RER,Paris 14e Arrondissement,Paris,143,1,48.82109,2.338978
+Argenteuil,TRAIN J,TRAIN,Argenteuil,Val-d'Oise,77,1,48.946797,2.257897
+Suresnes Mont Valérien,"TRAIN L, TRAIN U",TRAIN,Suresnes,Hauts-de-Seine,109,1,48.871714,2.22103
+Bellevue,TRAIN N,TRAIN,Meudon,Hauts-de-Seine,38,1,48.818948,2.229808
+Les Boullereaux Champigny,RER E,RER,Champigny-sur-Marne,Val-de-Marne,189,0,48.824849,2.511856
+La Muette,METRO 9,METRO,Paris 16e Arrondissement,Paris,42,1,48.858046,2.274155
+Père Lachaise,"METRO 2, METRO 3",METRO,Paris 11e Arrondissement,Paris,71,1,48.862653,2.386859
+Porte Dauphine,METRO 2,METRO,Paris 16e Arrondissement,Paris,159,0,48.871467,2.277083
+Boissière,METRO 6,METRO,Paris 16e Arrondissement,Paris,71,1,48.866983,2.290059
+Dupleix,METRO 6,METRO,Paris 15e Arrondissement,Paris,92,1,48.850435,2.293612
+Pasteur,"METRO 12, METRO 6",METRO,Paris 15e Arrondissement,Paris,7,1,48.842774,2.31263
+Quai de la Gare,METRO 6,METRO,Paris 13e Arrondissement,Paris,82,1,48.837045,2.372826
+Châtillon Montrouge,METRO 13,METRO,Châtillon,Hauts-de-Seine,106,1,48.810746,2.301679
+Liège,METRO 13,METRO,Paris 9e Arrondissement,Paris,42,1,48.879635,2.327022
+Mairie de Clichy,METRO 13,METRO,Clichy,Hauts-de-Seine,47,1,48.903234,2.306011
+Asnières - Gennevilliers Les Courtilles,METRO 13,METRO,Gennevilliers,Hauts-de-Seine,106,1,48.930757,2.284174
+Rue des Boulets,METRO 9,METRO,Paris 11e Arrondissement,Paris,44,1,48.852168,2.389626
+Alma - Marceau,METRO 9,METRO,Paris 8e Arrondissement,Paris,75,1,48.864767,2.300991
+Boulogne Jean Jaurès,METRO 10,METRO,Boulogne-Billancourt,Hauts-de-Seine,89,1,48.842005,2.238887
+Boulogne Pont de Saint-Cloud / Rhin et Danube,METRO 10,METRO,Boulogne-Billancourt,Hauts-de-Seine,50,1,48.840745,2.228537
+Bourse,METRO 3,METRO,Paris 2e Arrondissement,Paris,122,1,48.868654,2.341376
+Anatole France,METRO 3,METRO,Levallois-Perret,Hauts-de-Seine,56,1,48.892083,2.28501
+Temple,METRO 3,METRO,Paris 3e Arrondissement,Paris,96,1,48.866514,2.360804
+Porte de Champerret,METRO 3,METRO,Paris 17e Arrondissement,Paris,16,1,48.886006,2.29353
+Malesherbes,METRO 3,METRO,Paris 17e Arrondissement,Paris,52,1,48.882892,2.309052
+Porte de Pantin,METRO 5,METRO,Paris 19e Arrondissement,Paris,72,1,48.888417,2.391784
+Richard Lenoir,METRO 5,METRO,Paris 11e Arrondissement,Paris,65,1,48.859874,2.371914
+Alésia,METRO 4,METRO,Paris 14e Arrondissement,Paris,93,1,48.828188,2.327165
+Simplon,METRO 4,METRO,Paris 18e Arrondissement,Paris,69,1,48.894344,2.347431
+Bérault,METRO 1,METRO,Vincennes,Val-de-Marne,146,1,48.845471,2.429205
+Pont de Neuilly,METRO 1,METRO,Neuilly-sur-Seine,Hauts-de-Seine,101,1,48.884708,2.260515
+Bolivar,METRO 7bis,METRO,Paris 19e Arrondissement,Paris,100,1,48.880667,2.374496
+Danube,METRO 7bis,METRO,Paris 19e Arrondissement,Paris,105,1,48.881816,2.394012
+Boucicaut,METRO 8,METRO,Paris 15e Arrondissement,Paris,37,1,48.841094,2.287946
+Commerce,METRO 8,METRO,Paris 15e Arrondissement,Paris,42,1,48.844795,2.293952
+Faidherbe Chaligny,METRO 8,METRO,Paris 11e Arrondissement,Paris,47,1,48.850178,2.384092
+Michel Bizot,METRO 8,METRO,Paris 12e Arrondissement,Paris,57,1,48.837117,2.402333
+Liberté,METRO 8,METRO,Charenton-le-Pont,Val-de-Marne,5,1,48.82662,2.405852
+Maisons-Alfort - Stade,METRO 8,METRO,Maisons-Alfort,Val-de-Marne,20,1,48.809144,2.43451
+Lourmel,METRO 8,METRO,Paris 15e Arrondissement,Paris,25,1,48.838735,2.282143
+Porte de Charenton,METRO 8,METRO,Paris 12e Arrondissement,Paris,172,0,48.832737,2.40031
+Belleville,"METRO 11, METRO 2",METRO,Paris 10e Arrondissement,Paris,71,1,48.872066,2.376662
+Mairie des Lilas,METRO 11,METRO,Les Lilas,Seine-Saint-Denis,70,1,48.879761,2.41648
+Pyrenées,METRO 11,METRO,Paris 20e Arrondissement,Paris,61,1,48.873882,2.385316
+Aubervilliers Pantin Quatre Chemins,METRO 7,METRO,Pantin,Seine-Saint-Denis,144,1,48.903784,2.392221
+Le Peletier,METRO 7,METRO,Paris 9e Arrondissement,Paris,37,1,48.874972,2.340576
+Les Gobelins,METRO 7,METRO,Paris 13e Arrondissement,Paris,115,1,48.83593,2.352542
+Pont Marie (Cité des Arts),METRO 7,METRO,Paris 4e Arrondissement,Paris,39,1,48.853575,2.357163
+Villejuif Louis Aragon,METRO 7,METRO,Villejuif,Val-de-Marne,176,0,48.787563,2.367804
+Tolbiac,METRO 7,METRO,Paris 13e Arrondissement,Paris,99,1,48.826426,2.357246
+Jules Joffrin,METRO 12,METRO,Paris 18e Arrondissement,Paris,60,1,48.892419,2.344765
+Marx Dormoy,METRO 12,METRO,Paris 18e Arrondissement,Paris,33,1,48.890485,2.359996
+Volontaires,METRO 12,METRO,Paris 15e Arrondissement,Paris,23,1,48.841506,2.307949
+Saint-Fargeau,METRO 3bis,METRO,Paris 20e Arrondissement,Paris,105,1,48.872101,2.404515
+Grands Boulevards,"METRO 8, METRO 9",METRO,Paris 9e Arrondissement,Paris,104,1,48.871257,2.344561
+École Militaire,METRO 8,METRO,Paris 7e Arrondissement,Paris,192,0,48.854891,2.306403
+Richelieu Drouot,"METRO 8, METRO 9",METRO,Paris 9e Arrondissement,Paris,61,1,48.871942,2.33866
+Courbevoie,TRAIN L,TRAIN,Courbevoie,Hauts-de-Seine,136,1,48.898625,2.249197
+Château Landon,METRO 7,METRO,Paris 10e Arrondissement,Paris,101,1,48.878444,2.361965
+Anvers,METRO 2,METRO,Paris 9e Arrondissement,Paris,41,1,48.882973,2.344667
+Château d'Eau / Mairie du 10e,METRO 4,METRO,Paris 10e Arrondissement,Paris,120,1,48.872621,2.356154
+Bagneux - Lucie Aubrac,METRO 4,METRO,Bagneux,Hauts-de-Seine,623,0,48.80363,2.318054
+Exelmans,METRO 9,METRO,Paris 16e Arrondissement,Paris,77,1,48.842413,2.259608
+Campo Formio,METRO 5,METRO,Paris 13e Arrondissement,Paris,38,1,48.835153,2.358566
+Serge Gainsbourg,METRO 11,METRO,Les Lilas,Seine-Saint-Denis,164,0,48.881316,2.427186
+Maisons-Alfort - Alfortville,RER D,RER,Alfortville,Val-de-Marne,92,1,48.802049,2.426482
+Avenue Henri Martin,RER C,RER,Paris 16e Arrondissement,Paris,128,1,48.865462,2.272159
+Bourg-la-Reine,RER B,RER,Bourg-la-Reine,Hauts-de-Seine,81,1,48.780314,2.312308
+Gentilly,RER B,RER,Gentilly,Val-de-Marne,106,1,48.81523,2.340891
+La Courneuve - Aubervilliers,RER B,RER,La Courneuve,Seine-Saint-Denis,168,0,48.924354,2.386388
+Port Royal,RER B,RER,Paris 5e Arrondissement,Paris,290,0,48.840034,2.337096
+Vincennes,RER A,RER,Vincennes,Val-de-Marne,74,1,48.84734,2.432435
+Noisy-le-Sec,RER E,RER,Noisy-le-Sec,Seine-Saint-Denis,44,1,48.896652,2.458363
+Rosny-sous-Bois,RER E,RER,Rosny-sous-Bois,Seine-Saint-Denis,161,0,48.869912,2.485761
+Les Halles,METRO 4,METRO,Paris 1er Arrondissement,Paris,189,0,48.862515,2.345786
+Couronnes,METRO 2,METRO,Paris 20e Arrondissement,Paris,44,1,48.869091,2.380543
+Colonel Fabien,METRO 2,METRO,Paris 19e Arrondissement,Paris,75,1,48.87761,2.370811
+Philippe Auguste,METRO 2,METRO,Paris 20e Arrondissement,Paris,54,1,48.858062,2.390861
+Cambronne,METRO 6,METRO,Paris 15e Arrondissement,Paris,30,1,48.847507,2.302968
+Gaîté,METRO 13,METRO,Paris 14e Arrondissement,Paris,79,1,48.838632,2.322492
+Pernety,METRO 13,METRO,Paris 14e Arrondissement,Paris,74,1,48.834226,2.318616
+Plaisance / Vercingétorix,METRO 13,METRO,Paris 14e Arrondissement,Paris,45,1,48.831826,2.314122
+Garibaldi,METRO 13,METRO,Saint-Ouen-sur-Seine,Seine-Saint-Denis,43,1,48.906094,2.331831
+Robespierre,METRO 9,METRO,Montreuil,Seine-Saint-Denis,160,0,48.855726,2.422983
+Rue de la Pompe,METRO 9,METRO,Paris 16e Arrondissement,Paris,135,1,48.86394,2.278442
+Église d'Auteuil,METRO 10,METRO,Paris 16e Arrondissement,Paris,62,1,48.84715,2.269136
+Charles Michels,METRO 10,METRO,Paris 15e Arrondissement,Paris,73,1,48.846535,2.285999
+Ségur,METRO 10,METRO,Paris 15e Arrondissement,Paris,28,1,48.847066,2.307402
+Vaneau,METRO 10,METRO,Paris 7e Arrondissement,Paris,68,1,48.848816,2.321258
+Porte d'Auteuil,METRO 10,METRO,Paris 16e Arrondissement,Paris,227,0,48.847972,2.257745
+Parmentier,METRO 3,METRO,Paris 11e Arrondissement,Paris,90,1,48.865254,2.374582
+Jacques Bonsergent,METRO 5,METRO,Paris 10e Arrondissement,Paris,63,1,48.870396,2.3614
+Ourcq,METRO 5,METRO,Paris 19e Arrondissement,Paris,69,1,48.886857,2.385913
+Étienne Marcel,METRO 4,METRO,Paris 2e Arrondissement,Paris,141,1,48.863972,2.349618
+Château de Vincennes,METRO 1,METRO,Vincennes,Val-de-Marne,94,1,48.844456,2.44044
+Tuileries,METRO 1,METRO,Paris 1er Arrondissement,Paris,69,1,48.864344,2.33013
+Créteil Préfecture,METRO 8,METRO,Créteil,Val-de-Marne,112,1,48.780003,2.459363
+École Vétérinaire de Maisons-Alfort,METRO 8,METRO,Maisons-Alfort,Val-de-Marne,10,1,48.814803,2.422376
+Télégraphe,METRO 11,METRO,Paris 20e Arrondissement,Paris,52,1,48.875474,2.398868
+Le Kremlin - Bicêtre,METRO 7,METRO,Le Kremlin-Bicêtre,Val-de-Marne,70,1,48.81013,2.362263
+Villejuif Léo Lagrange,METRO 7,METRO,Villejuif,Val-de-Marne,73,1,48.804688,2.363953
+Notre-Dame-de-Lorette,METRO 12,METRO,Paris 9e Arrondissement,Paris,110,1,48.876047,2.337496
+Solférino,METRO 12,METRO,Paris 7e Arrondissement,Paris,51,1,48.858499,2.323168
+Rennes,METRO 12,METRO,Paris 6e Arrondissement,Paris,99,1,48.848458,2.327782
+Saint-Georges,METRO 12,METRO,Paris 9e Arrondissement,Paris,53,1,48.878173,2.337858
+Abbesses,METRO 12,METRO,Paris 18e Arrondissement,Paris,54,1,48.884594,2.33795
+Corentin Celton,METRO 12,METRO,Issy-les-Moulineaux,Hauts-de-Seine,84,1,48.827085,2.279412
+Mairie d'Issy,METRO 12,METRO,Issy-les-Moulineaux,Hauts-de-Seine,116,1,48.824309,2.273666
+Balard,METRO 8,METRO,Paris 15e Arrondissement,Paris,13,1,48.836295,2.27833
+Cadet,METRO 7,METRO,Paris 9e Arrondissement,Paris,80,1,48.876009,2.344572
+Alexandre Dumas,METRO 2,METRO,Paris 20e Arrondissement,Paris,22,1,48.856228,2.394676
+Buzenval / Avron,METRO 2,METRO,Paris 20e Arrondissement,Paris,45,1,48.851905,2.397997
+Monceau,METRO 2,METRO,Paris 8e Arrondissement,Paris,101,1,48.880325,2.308774
+Rome,METRO 2,METRO,Paris 8e Arrondissement,Paris,127,1,48.882333,2.321802
+La Chapelle,METRO 2,METRO,Paris 10e Arrondissement,Paris,55,1,48.8844,2.3604
+Blanche,METRO 2,METRO,Paris 9e Arrondissement,Paris,12,1,48.883556,2.33338
+Barbara,METRO 4,METRO,Bagneux,Hauts-de-Seine,54,1,48.809704,2.317449
+Église de Pantin,METRO 5,METRO,Pantin,Seine-Saint-Denis,14,1,48.89315,2.412763
+Chevilly-Larue,METRO 14,METRO,Chevilly-Larue,Val-de-Marne,1462,0,48.75955,2.366485
+Basilique de Saint-Denis,METRO 13,METRO,Saint-Denis,Seine-Saint-Denis,67,1,48.936777,2.359366
+Romainville - Carnot,METRO 11,METRO,Romainville,Seine-Saint-Denis,86,1,48.883136,2.440822
+Coteaux Beauclair,METRO 11,METRO,Rosny-sous-Bois,Seine-Saint-Denis,682,0,48.882244,2.467356

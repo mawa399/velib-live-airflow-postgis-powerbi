@@ -1,0 +1,100 @@
+/// Gares de métro, RER et Transilien (Île-de-France Mobilités) et distance à la station Vélib' la plus proche.
+table Gares
+	lineageTag: cfd2e32a-0c39-441b-9313-e709226cf765
+
+	measure 'Gares sans Vélib'' à 150 m' = CALCULATE(COUNTROWS(Gares), Gares[velib_150m] = 0)
+		formatString: #,0
+		lineageTag: 9137a236-b82c-48f2-b24e-62e0a9a2bd1c
+
+	measure 'Nombre de gares' = COUNTROWS(Gares)
+		formatString: #,0
+		lineageTag: 1d537c8f-6ff3-4539-81cb-09eefc7d60b9
+
+	column gare
+		dataType: string
+		lineageTag: 743727c1-3f98-4314-be99-f71b09933518
+		summarizeBy: none
+		sourceColumn: gare
+
+		annotation SummarizationSetBy = Automatic
+
+	column lignes
+		dataType: string
+		lineageTag: eee76df4-9898-4278-829e-04ea3d83f423
+		summarizeBy: none
+		sourceColumn: lignes
+
+		annotation SummarizationSetBy = Automatic
+
+	column modes
+		dataType: string
+		lineageTag: 1d0fd15c-1d48-41c1-967a-17a8e79b803f
+		summarizeBy: none
+		sourceColumn: modes
+
+		annotation SummarizationSetBy = Automatic
+
+	column territoire
+		dataType: string
+		lineageTag: 969b9799-0f6e-4ce3-b76d-8de99c9c605e
+		summarizeBy: none
+		sourceColumn: territoire
+
+		annotation SummarizationSetBy = Automatic
+
+	column departement
+		dataType: string
+		lineageTag: 61dfcd9e-7e92-45c2-908a-3663665712b5
+		summarizeBy: none
+		sourceColumn: departement
+
+		annotation SummarizationSetBy = Automatic
+
+	column distance_velib_m
+		dataType: int64
+		formatString: 0
+		lineageTag: 591156b2-3b9b-4b54-9436-c4041f7f7871
+		summarizeBy: average
+		sourceColumn: distance_velib_m
+
+		annotation SummarizationSetBy = Automatic
+
+	column velib_150m
+		dataType: int64
+		formatString: 0
+		lineageTag: 8222a150-2ecb-4e3b-a0ea-7178a6a0d49c
+		summarizeBy: none
+		sourceColumn: velib_150m
+
+		annotation SummarizationSetBy = Automatic
+
+	column lat
+		dataType: double
+		lineageTag: cd170bc3-0487-4631-af6d-4b2198939ccb
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: lat
+
+		annotation SummarizationSetBy = Automatic
+
+	column lon
+		dataType: double
+		lineageTag: d0e93ca9-7d68-4569-8185-c4891cfba268
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: lon
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Gares = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DossierDonnees & "gares.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Entetes = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Types = Table.TransformColumnTypes(Entetes, {{"gare", type text}, {"lignes", type text}, {"modes", type text}, {"territoire", type text}, {"departement", type text}, {"distance_velib_m", Int64.Type}, {"velib_150m", Int64.Type}, {"lat", type number}, {"lon", type number}}, "en-US")
+				in
+				    Types
+
+	annotation PBI_ResultType = Table
+

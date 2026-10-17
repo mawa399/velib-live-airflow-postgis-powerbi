@@ -1,0 +1,152 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "classement",
+  "position": {
+    "x": 628,
+    "y": 392,
+    "z": 8000,
+    "width": 636,
+    "height": 312,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Territoires"
+                    }
+                  },
+                  "Property": "nom"
+                }
+              },
+              "queryRef": "Territoires.nom",
+              "nativeQueryRef": "nom",
+              "displayName": "Commune"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Territoires"
+                    }
+                  },
+                  "Property": "departement"
+                }
+              },
+              "queryRef": "Territoires.departement",
+              "nativeQueryRef": "departement",
+              "displayName": "Département"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Territoires"
+                    }
+                  },
+                  "Property": "Population totale"
+                }
+              },
+              "queryRef": "Territoires.Population totale",
+              "nativeQueryRef": "Population totale",
+              "displayName": "Habitants"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Territoires"
+                    }
+                  },
+                  "Property": "Taux de couverture"
+                }
+              },
+              "queryRef": "Territoires.Taux de couverture",
+              "nativeQueryRef": "Taux de couverture",
+              "displayName": "Couverture 300 m"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Territoires"
+                    }
+                  },
+                  "Property": "Bornes pour 1 000 habitants"
+                }
+              },
+              "queryRef": "Territoires.Bornes pour 1 000 habitants",
+              "nativeQueryRef": "Bornes pour 1 000 habitants",
+              "displayName": "Bornes / 1 000 hab."
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Territoires"
+                  }
+                },
+                "Property": "Taux de couverture"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Classement des communes, les moins couvertes en premier'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

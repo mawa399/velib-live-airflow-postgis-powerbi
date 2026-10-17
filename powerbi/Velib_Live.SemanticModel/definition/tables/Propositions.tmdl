@@ -1,0 +1,81 @@
+/// 20 emplacements proposés par localisation-allocation (ArcGIS Network Analyst, couverture maximale à 300 m).
+table Propositions
+	lineageTag: 58e034dc-3be1-470a-abde-ab1c5a6fb07a
+
+	measure 'Habitants gagnés' = SUM(Propositions[habitants_gagnes])
+		formatString: #,0
+		lineageTag: 6a4ad646-7a38-4b84-b43f-280ba1fcf7a8
+
+	column rang
+		dataType: int64
+		formatString: 0
+		lineageTag: b498f49d-9f93-46f6-a8b3-ee90a6aeb9d6
+		summarizeBy: none
+		sourceColumn: rang
+
+		annotation SummarizationSetBy = Automatic
+
+	column carreau
+		dataType: string
+		isHidden
+		lineageTag: d4526e0d-9088-4764-bcc6-f47d22b432ec
+		summarizeBy: none
+		sourceColumn: carreau
+
+		annotation SummarizationSetBy = Automatic
+
+	column habitants_gagnes
+		dataType: int64
+		formatString: #,0
+		lineageTag: 81e88098-de1b-4b0e-9c96-1a0175b76745
+		summarizeBy: sum
+		sourceColumn: habitants_gagnes
+
+		annotation SummarizationSetBy = Automatic
+
+	column territoire
+		dataType: string
+		lineageTag: 5b03c9da-f035-4f28-860a-59f81b8f55a8
+		summarizeBy: none
+		sourceColumn: territoire
+
+		annotation SummarizationSetBy = Automatic
+
+	column departement
+		dataType: string
+		lineageTag: 91aa6a4a-9072-4c5e-9af4-12dc7c562e41
+		summarizeBy: none
+		sourceColumn: departement
+
+		annotation SummarizationSetBy = Automatic
+
+	column lat
+		dataType: double
+		lineageTag: ef0ccc9f-516a-4aaf-a728-b7eda413f24f
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: lat
+
+		annotation SummarizationSetBy = Automatic
+
+	column lon
+		dataType: double
+		lineageTag: 700ddd8b-edee-4cc9-bf74-ea4353fae998
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: lon
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Propositions = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DossierDonnees & "propositions.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Entetes = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Types = Table.TransformColumnTypes(Entetes, {{"rang", Int64.Type}, {"carreau", type text}, {"habitants_gagnes", Int64.Type}, {"territoire", type text}, {"departement", type text}, {"lat", type number}, {"lon", type number}}, "en-US")
+				in
+				    Types
+
+	annotation PBI_ResultType = Table
+

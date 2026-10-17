@@ -1,0 +1,24 @@
+model Model
+	culture: fr-FR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+	sourceQueryCulture: fr-FR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["DossierDonnees","Stations","StationsGeo","Territoires","Gares","Propositions","CarteAnalyse"]
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Stations
+ref table StationsGeo
+ref table Territoires
+ref table Gares
+ref table Propositions
+ref table CarteAnalyse
+
+ref cultureInfo fr-FR
+

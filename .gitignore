@@ -1,0 +1,20 @@
+# Secrets : ne jamais publier
+parametres.txt
+parametres_*.txt
+!parametres.exemple.txt
+.env
+*.env
+
+# Airflow
+airflow/logs/
+__pycache__/
+*.pyc
+
+# Power BI (cache local et réglages propres au poste)
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
